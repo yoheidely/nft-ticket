@@ -130,9 +130,6 @@ contract NonFungibleTicket is ERC721 {
         deeds[_deedId].forSale = false;
 
         oldOwner.transfer(newPrice);
-        // balance[oldOwner] = balance[oldOwner] + newPrice; 
-
-        // asyncSend(oldOwner, newPrice);
     }
 
     function bytes32ToStr(bytes32 _bytes32) public pure returns (string){
