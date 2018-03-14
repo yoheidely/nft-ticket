@@ -1,0 +1,22 @@
+.ticket-info-container {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cancel-sale {
+    border-color: blue;
+}
+
+.sell {
+    border-color: green;
+}
+
+.not-for-sale {
+    border-color: red;
+}
+
+.purchase {
+    border-color: orange;
+}
